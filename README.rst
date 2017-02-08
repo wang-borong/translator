@@ -28,6 +28,7 @@ The source language is auto detected, so all you need is
 to specify the destination language:
 
 ::
+
     $ translator --to [dst_lang] [WORDs]
 
 All the language options are zh, en, yue, wyw, jp, kor, fra, spa, th,
@@ -41,6 +42,7 @@ Installation
 Sorry, you need dump the source codes to install it so far:
 
 ::
+    
     $ git clone https://github.com/stuha/translator.git
     $ cd translator && [sudo] python setup.py install
 
@@ -48,6 +50,7 @@ Usage
 -----
 
 ::
+    
     usage: translate [-h] [-b] [-t LANG] [-v] [WORD [WORD ...]]
 
     a translator for command line
