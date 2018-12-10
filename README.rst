@@ -8,26 +8,26 @@ Do you want to translate a word or a sentance when you are reading? Before,
 You may open your browser or your dict application to search them. But now,
 you just need a command to do this:
 
-::
+.. code:: sh
 
     $ translate apple
-    > ==> 苹果
+    # ==> 苹果
 
     $ translator --to en 苹果
-    > ==> Apple
+    # ==> Apple
 
     $ translator you are so beautiful!
-    > ==> 你是如此美丽!
+    # ==> 你是如此美丽!
 
     $ translator --to en 很高兴见到你!
-    > ==> Nice to meet you!
+    # ==> Nice to meet you!
 
 Translator support to translate multiple languages, e.g.,
 Chinese, English, Russian, French, Korean, etc.
 The source language is auto detected, so all you need is
 to specify the destination language:
 
-::
+.. code:: sh
 
     $ translator --to [dst_lang] [WORDs]
 
@@ -41,16 +41,16 @@ Installation
 
 Sorry, you need dump the source codes to install it so far:
 
-::
-    
+.. code:: sh
+
     $ git clone https://github.com/stuha/translator.git
-    $ cd translator && [sudo] python setup.py install
+    $ cd translator && [sudo] python3 setup.py install
 
 Usage
 -----
 
 ::
-    
+
     usage: translate [-h] [-b] [-t LANG] [-v] [WORD [WORD ...]]
 
     a translator for command line
@@ -73,7 +73,7 @@ Author
 Notes
 -----
 
--  Works with Python3 now
+- It just Works with Python3 now
 
 Development
 -----------
